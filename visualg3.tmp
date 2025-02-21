@@ -1,0 +1,22 @@
+Algoritmo "medidas"
+
+Var
+   a, b, c, areaQuadrado, areaTriangulo, areaTrapezio: real
+
+
+Inicio
+     escreva("Digite a medida A: ")
+     leia(A)
+      escreva("Digite a medida b: ")
+     leia(b)
+      escreva("Digite a medida c: ")
+     leia(c)
+     
+     AreaQuadrado <- A * A
+     AreaTriangulo<- A * B / 2
+     AreaTrapezio<- (A + b) * c / 2
+     
+     escreva ("Area Do Quadrado = ", areaQuadrado:6:4)
+     escreva ("Area Do Triangulo = ", areaTriangulo:6:4)
+     escreva ("Area Do Trapezio = ", areaTrapezio:6:4)
+Fimalgoritmo
